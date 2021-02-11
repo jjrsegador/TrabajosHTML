@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <title> Prueba1 CSS </title>
+  <meta charset="utf-8">
+  <meta author="Javier Ramírez Segador">
+  <meta description="Prueba 3 CSS">
+
+  <!-- Si elimino la etiqueta p, la clase idrojo se aplicará en todas las etiquetas que utilicen dicha clase -->
+  <!-- Un identificador solo se aplicará a un elemento -->
+
+  <style type="text/css" media="all" title="Mi propio diseño web">
+
+       .clsrojo{color:red}
+      p.clsverde{color:green}
+       .clsfondogris{background-color: lightgrey}
+
+       #idfondonar{background-color: orange}
+
+  </style>
+
+</head>
+
+<body>
+  <p class="clsrojo" id="idfondonar"> La oreja roja </p>
+  <p class="clsverde clsfondogris"> la oreja verde </p>
+  <h1 class="clsrojo"> UTILIZA VALOR DE LA CLASE DEFINIDO EN STYLE </h1>
+</body>
+</html>

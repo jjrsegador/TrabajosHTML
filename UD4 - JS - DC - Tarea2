@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="utf-8">
+  <meta name ="description" content="UD4 JS - Tarea2">
+  <meta name="author" content="José Javier Ramírez Segador">
+  <title> JS Tarea2</title>
+</head>
+
+<body>
+
+    <h1> PRODUCTOS ALIMENTICIOS </h1>
+
+
+
+    <!-- BUENAS PRÁCTICAS - JS DEBE IR AL FINAL DEL BODY -->
+    <!-- DEFINIMOS PLANTILLA DE JS indicando siempre DE QUÉ TIPO SERÁ EL SCRIPT A GENERAR  -->
+    <script type="text/javascript" src="../js/UD4_Tarea2.js">
+
+    </script>
+
+</body>
+</html>

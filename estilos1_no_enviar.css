@@ -1,0 +1,22 @@
+  
+  /* Título principal  */
+  #titulo {background-color:black; color:white; font-size:20px;}
+  
+    /* clase color azul */
+  .azul {color:blue;}
+  
+  
+  /* clase color verde */
+  .verde {color:green;}
+  
+  /* Tabla debe tener borde negro de 1 pixel */
+  .borde {border: 1px solid black;
+          border-collapse:collapse;
+         }
+		 
+  /* Encabezado de la tabla en negrita con fondo amarillo */
+  .encabezado{background-color:yellow;
+              font-style:bold;  
+	         }
+  
+

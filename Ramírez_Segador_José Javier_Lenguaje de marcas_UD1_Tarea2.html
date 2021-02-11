@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html>
+   <head>
+      <title> UD1_Tarea2 </title>
+      <meta charset="utf-8">
+      <meta name="description" content="Lenguaje de Marcas">
+      <meta name="keywords" content="imágenes, textos, fuentes">
+      <meta name="author" content="José Javier Ramírez Segador">
+
+   </head>
+
+   <!-- Se inserta imagen de fondo -->
+   <body>
+     <!-- Se define formulario con envío a correo electrónico, método de envío de la información oculta
+          y typo de encriptación texto plano -->
+     <form action="mailto:jjrsegador@gmail.com" method="post" enctype="text/plain">
+
+       <br> <br>
+       <!-- Se genera recuadro principal de Datos personales con campos nombre y apellidos -->
+       <fieldset name="datospersonales">
+          <legend> Datos personales </legend>
+          <br>
+
+          <!-- INPUT - Para texto indicar  type:text, size: y maxlength:      -->
+          <!--       - RadioButtom indicar type:radio  y value:xxxx           -->
+          <!--       - Bottom indicar      type:submit y value:xxxx           -->
+          <label for="nombre">  Nombre:  </label>
+             <input type="text" name="nombre" size="55" maxlength="50">
+
+          <label for="apellidos">  Apellidos:  </label>
+             <input type="text" name="apellidos" size="110" maxlength="90">
+
+          <br> <br>
+       </fieldset>
+
+       <br> <br>
+
+       <!-- Se genera cuadro principal con los datos del pago -->
+       <fieldset name="cuadrodepago">
+          <legend> Datos de pago </legend>
+          <br>
+
+
+       <!-- Se genera tabla con los elementos solicitados -->
+          <table style="border-spacing:30px">
+              <tr>
+                 <td style="border:3px solid black; padding:50px; width:650px; height:200px; vertical-align:top">
+
+                    <p> <input type="radio" name="formadepago" value="01"> Efectivo
+
+                 </td>
+
+                 <td style="border:3px solid black; padding:50px; width:650px; height:200px; vertical-align:top">
+
+                    <p>  <input type="radio" name="formadepago" value="02" checked> Tarjeta </p>
+
+                    Número: <br>
+                    <input type="text" size="20" maxlength="16">
+
+                    <!-- COMBOBOX - SELECT Y OPTION 1, OPTION 2, ETC. -->
+                    <p> Tipo: <select name="tipotarjeta" >
+                                <option> Visa </option>
+                                <option> Mastercard </option>
+                                <option> American Express </option>
+                              </select>
+                    </p>
+                </td>
+              </tr>
+          </table>
+
+          <!-- Se incluye botón -->
+          <input type="submit" value="Enviar" >
+
+
+
+
+       </fieldset>
+
+     </form>
+
+
+
+   </body>
+
+   </html>
